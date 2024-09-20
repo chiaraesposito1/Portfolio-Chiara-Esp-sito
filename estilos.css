@@ -211,7 +211,7 @@
     .img-proyecto{
         width: 380px;
         height: 200px;
-        background-size: contain;
+        background-size: cover;
         margin: 10px;
         border-radius: 20px;
         margin-bottom: 20px;
