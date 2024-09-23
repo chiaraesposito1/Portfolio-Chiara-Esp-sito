@@ -30,6 +30,7 @@
         height: 70px;
     }
     .nav-link{
+        width: 120px;
         color:black;
         padding: 0px 20px;
         font-size: 1rem;
@@ -446,22 +447,23 @@ footer{
 /*Media queries*/
 @media screen and (max-width: 576px) { 
     .navbar{
-        .icon-header{
-            width:0px;
-            height: 0px;
+        .col-iconHeader{
+            width: 50px;
         }
-        .hola{
-            margin: 0px;
-            padding: 0px;
-            background-color: antiquewhite;
+        .icon-header{
+            width:30px;
+            height: 30px;
         }
         .nav-link{
+            width: 60px;
+            padding: 0px;
             font-size: 0.8rem;
-            font-weight: 500;
+            margin: 8px;
         }
         .cv{
-            padding: 8px 30px;
-            font-size: 0.3rem;
+            width: 70px;
+            padding: 4px 18px;
+            font-size: 0.8rem;
         }
     }
     
@@ -611,7 +613,6 @@ footer{
             }
         }
     }
-    
     /*Trabajemos juntos*/
     .btn-contacto{
         padding:5px 10px;
@@ -637,8 +638,6 @@ footer{
             font-size: 0.66rem;
             }
     }
-    
-    
     /*FOOTER*/
     footer{
         .footer-info{
