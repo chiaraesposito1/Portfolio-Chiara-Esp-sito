@@ -448,22 +448,25 @@ footer{
 @media screen and (max-width: 576px) { 
     .navbar{
         .col-iconHeader{
-            width: 50px;
+            width: 10px;
+            padding: 0px;
+            margin: 0px;
         }
         .icon-header{
             width:30px;
             height: 30px;
         }
         .nav-link{
-            width: 60px;
+            width: 55px;
             padding: 0px;
             font-size: 0.8rem;
-            margin: 8px;
+            margin: 6px;
         }
         .cv{
             width: 70px;
             padding: 4px 18px;
             font-size: 0.8rem;
+            margin: 0px;
         }
     }
     
@@ -517,14 +520,11 @@ footer{
         font-size: 0.66rem;
         padding-bottom: 5px;
     }
-    .title-secundario{
-        font-size: 1rem;
-    }
     
     /*SOBRE MI*/
     .col-portada{
         padding:5px;
-        margin-left: 30px;
+        margin-left: 0px;
         margin-right: 0px;
     }
     .col-portada2{
@@ -602,22 +602,33 @@ footer{
     /*EXPERIENCIA Y ESTUDIOS*/
     .experiencia-estudio{
         .columna{
+            width:100%;
+        
             h3{
                 font-size: 0.8rem;
+                width: 100%;
             }
             li{
-                font-size: 0.66rem;
+                font-size: 0.6rem;
             }
             p{
                 font-size: 0.66rem;
+                text-align: justify;
             }
         }
     }
     /*Trabajemos juntos*/
+    .icons-contacto{
+        width: 400px;
+    }
     .btn-contacto{
-        padding:5px 10px;
-        margin:5px;
+        padding:5px 20px;
         font-size: 0.66rem;
+        margin: 5px;
+        border-radius: 20px;
+        .icon-trabajemos{
+            padding-right: 5px;
+        }
     }  
     .intro-contacto{
         text-align: center;
@@ -627,6 +638,7 @@ footer{
         padding-bottom: 30px;
     }
     form{
+        padding-top: 10px;
         .form-control{
             font-size: 0.66rem;
         }
@@ -641,14 +653,16 @@ footer{
     /*FOOTER*/
     footer{
         .footer-info{
-            height: 35vh;
+            height: 25vh;
         }
         .footer-link{
             font-size: 0.66rem;
             margin: 10px;
+            padding-bottom: 10px ;
         }
         .name-footer{
             font-size: 1rem;
+            padding-top: 10px ;
         }
         .img-footer{
             width:40px;
