@@ -60,6 +60,10 @@
 }
 
 /*PORTADA*/
+.portada{
+    margin: 30px 0px ;
+    padding: 30px;
+}
 .col-portada{
         padding:20px;
         margin-left: 30px;
@@ -445,37 +449,39 @@ footer{
 
 
 /*Media queries*/
-@media screen and (max-width: 767px) { 
+@media screen and (max-width: 767px) {
     .navbar{
+        padding: 0px;
+        height: 60px; 
         .col-iconHeader{
             width: 10px;
             padding: 0px;
             margin: 0px;
-        }
+        }  
         .icon-header{
             width:30px;
             height: 30px;
         }
         .nav-link{
             width: 55px;
-            padding: 0px;
-            font-size: 0.8rem;
-            margin: 6px;
+            padding: 2px;
+            font-size: 0.6rem;
+            margin: 5px;
         }
         .cv{
-            width: 70px;
+            width: 50px;
             padding: 4px 10px;
-            font-size: 0.8rem;
+            font-size: 0.6rem;
             margin: 0px;
         }
     }
-    
+
     /*PORTADA*/
     .title{
-        font-size: 1.8rem;
+        font-size: 1.3rem;
     }
     .icons{
-        padding-bottom: 40px;
+        padding-bottom: 10px;
         .fab{
             font-size: 1rem;
             padding: 10px;
@@ -483,25 +489,21 @@ footer{
         }
     }
     .p-portada{
-        font-size: 0.8rem;
-        text-align: start;
+        font-size: 0.6rem;
         margin:0px;
-    }
-    .text{
-        text-align: justify;
     }
     .fa-arrow-down-long{
         animation: float 2s infinite ease-in;
     }
     .texto-btn{
-        font-size: 0.8rem;
-        padding:6px 20px;
+        font-size: 0.6rem;
+        padding:5px 8px;
+        
     }
     
     /*SERVICIOS*/
     .servicios{
         height: 50px;
-    
         .icon-servicios{
             height: 0px;
             width: 0px;  
@@ -523,9 +525,12 @@ footer{
     
     /*SOBRE MI*/
     .col-portada{
-        padding:5px;
+        padding:0px;
         margin-left: 0px;
         margin-right: 0px;
+    }
+    #sobremi{
+        padding-top: 10px ;
     }
     .col-portada2{
         padding:5px;
@@ -543,7 +548,7 @@ footer{
         flex-wrap: wrap;
     }
     .text-yo{
-        font-size: 0.8rem;
+        font-size: 0.66rem;
         width:100%;
         text-align: justify;
     }
@@ -557,10 +562,15 @@ footer{
     }
     
     /*MIS PROYECTOS*/
+    .section-portfolio{
+        margin-top:10px;
+        padding-top: 5px;
+    }
     .intro-proyectos{
-        width:80%;
+        width:90%;
         padding-bottom: 15px;
-        font-size: 0.8rem;
+        font-size: 0.66rem;
+        
     }
     .container-proyectos{
         display: flex;
@@ -600,16 +610,26 @@ footer{
         }}
     
     /*EXPERIENCIA Y ESTUDIOS*/
+    .section-estudios{
+        padding-top: 20px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+    .col-8{
+        padding:20px;
+    }
     .experiencia-estudio{
         .columna{
             width:100%;
+            margin:0px;
+            padding: 0px;
         
             h3{
                 font-size: 0.8rem;
                 width: 100%;
             }
             li{
-                font-size: 0.6rem;
+                font-size: 0.66rem;
             }
             p{
                 font-size: 0.66rem;
@@ -618,12 +638,16 @@ footer{
         }
     }
     /*Trabajemos juntos*/
+    .section-contacto{
+        margin: 10px;
+        padding: 10px 0px;
+    }
     .icons-contacto{
         width: 400px;
     }
     .btn-contacto{
-        padding:5px 20px;
-        font-size: 0.66rem;
+        padding:5px 10px;
+        font-size: 0.6rem;
         margin: 5px;
         border-radius: 20px;
         .icon-trabajemos{
@@ -632,8 +656,8 @@ footer{
     }  
     .intro-contacto{
         text-align: center;
-        width:80%;
-        font-size: 0.8rem;
+        width:100%;
+        font-size: 0.66rem;
         margin: 0px;
         padding-bottom: 30px;
     }
@@ -654,14 +678,16 @@ footer{
     footer{
         .footer-info{
             height: 25vh;
+            padding: 0px;
+            margin: 0px;
         }
         .footer-link{
-            font-size: 0.66rem;
-            margin: 10px;
+            font-size: 0.6rem;
+            margin: 5px;
             padding-bottom: 10px ;
         }
         .name-footer{
-            font-size: 1rem;
+            font-size: 0.8rem;
             padding-top: 10px ;
         }
         .img-footer{
@@ -669,7 +695,7 @@ footer{
             height: 40px;
         }
         .p-footer{
-            font-size: 0.66rem;
+            font-size: 0.6rem;
         }
         .section-derechos{
         
@@ -678,7 +704,7 @@ footer{
         }
     }}}
 
-@media screen and (min-width: 787px) and (max-width:1023px){
+@media screen and (min-width: 767px) and (max-width:1023px){
     .navbar{
         padding: 10px 40px;
         height: 70px;
