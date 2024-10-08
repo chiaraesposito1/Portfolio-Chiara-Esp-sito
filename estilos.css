@@ -677,3 +677,97 @@ footer{
                 font-size: 0.5rem;
         }
     }}}
+
+@media (max-width: 678px){
+    .navbar{
+        padding: 10px 40px;
+        height: 70px;
+        box-shadow: 2px 2px 10px rgba(231, 230, 230, 0.685);
+        .col-iconHeader{
+            width: 5px;
+        }
+        .icon-header{
+            width:50px;
+            height: 50px;
+            padding:0px;
+            margin:0px;
+        }
+        .nav-link{
+            font-size: 0.8rem;
+            width: 100px;
+            padding: 0px 20px;
+            margin: 0px 5px;
+        }
+        .cv{
+            padding: 8px 30px;
+        }
+    }
+    
+    /*PORTADA*/
+    .col-portada{
+            padding:20px;
+            margin-left: 20px;
+            margin-right: 20px;
+    }
+    .col-portada2{
+        padding-top:20px;
+    }
+    .title{
+        font-size: 2.5rem;
+    }
+    .icons{
+        .fab{
+            font-size: 1.3rem;
+            padding: 15px;
+            margin: 5px;
+        }
+
+    }
+    /*SERVICIOS*/
+    .servicios{
+        .icon-servicios{
+            height: 30px;
+            width: 35px;  
+        }
+        .lista{
+           
+            .list-servicios{
+                font-size: 0.6rem;
+            }
+        }
+    }
+    
+    .title-secundario{
+        font-size: 2.5rem;
+    }
+    
+    /*SOBRE MI*/
+  
+    .img-perfil{
+        width:260px;
+        height:260px;
+        border: 2px solid rgb(156, 49, 189); 
+    }
+    /*MIS PROYECTOS*/
+   
+    .intro-proyectos{
+        width:80%;
+    }
+    .container-proyectos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    /*FOOTER*/
+    
+    footer{
+        background-color: white;
+        color:black;
+        text-decoration: none;
+        box-shadow: 5px 5px 20px rgb(211, 211, 211);
+        margin-top: 30px;
+    
+        .footer-info{
+            height: 30vh;
+        }
+    }}
