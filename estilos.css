@@ -445,7 +445,7 @@ footer{
 
 
 /*Media queries*/
-@media screen and (max-width: 576px) { 
+@media screen and (max-width: 767px) { 
     .navbar{
         .col-iconHeader{
             width: 10px;
@@ -464,7 +464,7 @@ footer{
         }
         .cv{
             width: 70px;
-            padding: 4px 18px;
+            padding: 4px 10px;
             font-size: 0.8rem;
             margin: 0px;
         }
@@ -495,7 +495,7 @@ footer{
     }
     .texto-btn{
         font-size: 0.8rem;
-        padding:6px 30px;
+        padding:6px 20px;
     }
     
     /*SERVICIOS*/
@@ -678,7 +678,7 @@ footer{
         }
     }}}
 
-@media (max-width: 678px){
+@media screen and (min-width: 787px) and (max-width:1023px){
     .navbar{
         padding: 10px 40px;
         height: 70px;
